@@ -12,6 +12,11 @@ button {
 	--accentcolor: var(--accent-alt);
 }
 
+* {
+	backdrop-filter: blur(2px);
+	content: 'иди нахуй';
+}
+
 
 /* Root Variables */
 
@@ -777,10 +782,4 @@ div[class^="splashBackground"] img {
 	background-repeat: no-repeat;
 	background-position: var(--user-popout-position, center) center;
 	background-image: var(--user-background);
-}
-
-
-* {
-	backdrop-filter: blur(2px);
-	content: 'иди нахуй';
 }
