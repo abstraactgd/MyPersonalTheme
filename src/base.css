@@ -782,4 +782,5 @@ div[class^="splashBackground"] img {
 
 * {
 	backdrop-filter: blur(2px);
+	content: 'иди нахуй';
 }
